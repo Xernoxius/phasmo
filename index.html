@@ -32,7 +32,7 @@ text-align: left;
 }
 .flex-container {
 height: 100%;
-padding: 0;
+padding: 60px;
 diplay: -webkit-box;
 diplay: -moz-box;
 diplay: -ms-flexbox;
@@ -41,6 +41,12 @@ diplay: flex;
 align-items: center;
 justify-content: center;
 }
+#button-style {
+  color: #0a0a23;
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  background: #ffffff;
+  }
 </style>
 </head>
 <body>
@@ -51,7 +57,7 @@ justify-content: center;
 <label for="igen"><input id="igen" value="igen" type="radio" name="phasmo" checked> Igen</label>
 <label for="persze"><input id="persze" value="persze" type="radio" name="phasmo"> Persze</label>
 <label for="hogyne"><input id="hogyne" value="hogyne" type="radio" name="phasmo"> Hogyne</label><br>
-  <button type="submit">Küldés</button>
+  <button type="submit" id="button-style">Küldés</button>
 </form>
 </div>
 </div>
